@@ -1,0 +1,25 @@
+// main page //
+
+<div class="container">
+      
+     
+      
+      <section class="home" id="home">
+        <div class="col">
+          <p class="two">
+            i<br />
+            am<br />
+            " identitied "<br />
+            in<br />
+            Jesus<br /> Christ<br />
+          </p>
+        </div>
+      </section>
+
+      <section class="cloth">
+
+      </section>
+
+      
+    </div>
+
