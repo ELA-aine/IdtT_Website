@@ -32,20 +32,22 @@
 
 section.top{
   width: 100%;
-    height: 15vh;
-    background: white;
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 8%;
-    box-sizing: border-box;
+  height: 15vh;
+  background: white;
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 8%;
+  box-sizing: border-box;
     
 }
 
   .navbar{
+   
     height: 12%;
     display: flex;
     align-items: center;
+    
   }
   
   nav{
@@ -74,7 +76,7 @@ section.top{
     color: rgb(0, 0, 0);
     font-size: 12px;
     font-family: font3;
-
+    cursor:pointer;
   }
 
   nav ul li a:hover{
@@ -86,8 +88,8 @@ section.top{
   section.home{
     padding-top: 20px;
     width: 100%;
-    height: 640px;
-    background-color: var(--back-color);
+    height: 660px;
+    background-color: black;
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -106,15 +108,15 @@ section.top{
     height: 400px;
     margin-top: -210px;
     max-width: 100%;
-    position: relative;
+    
   }
 
   .gallery-item{
-    height: 300px;
+    height: 100px;
     opacity: 0;
     position: absolute;
     transition: all 0.3s ease-in-out;
-    width: 330px;
+    width: 100px;
     z-index: 0;
     border-radius: 15px;
     background-size: contain;
@@ -122,21 +124,21 @@ section.top{
 
   .gallery-item-1{
     left: 15%;
-    height: 160%;
+    height: 85vh;
     width: 60%;
     opacity: 0.4;
     transform: translateX(-50%);
   }
 
   .gallery-item-2, .gallery-item-4{
-    height: 160%;
+    height: 85vh;
     width: 60%;
     opacity: 0.8;
     z-index: 1;
   }
 
   .gallery-item-2{
-    height: 160%;
+    height: 85vh;
     width: 60%;
     width: 60%;;
     left: 30%;
@@ -145,7 +147,7 @@ section.top{
 
   .gallery-item-3{
     box-shadow: -2px 5px 28px 6px rgba(0, 0, 0, 0.35);
-    height: 160%;
+    height: 85vh;
     opacity: 1;
     left: 50%;
     transform: translateX(-50%);
@@ -155,30 +157,20 @@ section.top{
   }
 
   .gallery-item-4{
-    height: 160%;
+    height: 85vh;
     width: 60%;
     left: 70%;
     transform: translateX(-50%);
   }
 
   .gallery-item-5{
-    height: 160%;
+    height: 85vh;
     border-radius: 0;
-    width: 49%;
+    width: 30%;
     left: 85%;
     opacity: 0.4;
     transform: translateX(-50%);
   }
-
-
-  
-
-
-
-
-
-
-
 
 
 
